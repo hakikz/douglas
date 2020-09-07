@@ -1,0 +1,31 @@
+.single-member{
+    padding-bottom: 20px;
+    .right-desc{
+        h5{
+            font-weight: bold;
+            font-size: 20px;
+
+            &.name{
+                color: $blue2;
+            }
+        }
+
+        h6{
+            &.location{
+                color: $orange2;
+                font-size: 18px;
+                padding: 7px 0;
+                margin-bottom: 0;
+            }
+        }
+
+        p{
+            font-size: 16px;
+            line-height: 25px;
+        }
+
+        &.full{
+            padding-top: 30px;
+        }
+    }
+}

@@ -1,0 +1,349 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;700&display=swap");
+.inner-contact-hero {
+  position: relative;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 20px 0 60px;
+}
+.inner-contact-hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #07105f;
+  opacity: 0.7;
+}
+.inner-contact-hero .title {
+  margin-bottom: 50px;
+}
+.inner-contact-hero .title h3 {
+  color: #fff;
+  text-align: center;
+  font-family: "Lora";
+  font-size: 35px;
+}
+.inner-contact-hero.about-contact {
+  padding-bottom: 0;
+}
+.inner-contact-hero.about-contact::before {
+  display: none;
+}
+.inner-contact-hero.about-contact .copy {
+  text-align: center;
+  color: #fff;
+  padding: 60px 0 30px;
+}
+.inner-contact-hero.single-member-contact {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.inner-contact-hero.single-member-contact::before {
+  display: none;
+}
+.inner-contact-hero.single-member-contact .copy {
+  text-align: center;
+  color: #fff;
+  padding: 40px;
+}
+
+.form-ideal {
+  background-color: #f8f9fe;
+  border-radius: 10px;
+  padding: 15px 25px;
+}
+.form-ideal .title {
+  margin-bottom: 0;
+}
+.form-ideal .title h6 {
+  font-weight: bold;
+  color: #d3862e;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-ideal input::placeholder, .form-ideal textarea::placeholder {
+  color: #2d2d2d;
+}
+.form-ideal textarea {
+  height: 100px;
+}
+.form-ideal .button {
+  text-align: center;
+}
+.form-ideal .button input {
+  background-color: #d3862e;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.form-side {
+  background-color: #f8f9fe;
+  border-radius: 10px;
+  padding: 15px 20px;
+}
+.form-side .address .title {
+  margin-bottom: 0;
+}
+.form-side .address .title h6 {
+  font-weight: bold;
+  color: #d3862e;
+  font-size: 15px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.form-side .address a {
+  color: #d3862e;
+}
+.form-side .address p {
+  padding: 0 0 20px 0;
+}
+.form-side .address p span {
+  width: 70%;
+  display: -block;
+  float: left;
+}
+.form-side .address p span:first-child {
+  width: 30%;
+}
+.form-side .social {
+  margin-top: 130px;
+}
+.form-side .social ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.form-side .social ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.form-side .social ul li a {
+  background-color: #fff;
+}
+.form-side .social ul li a i {
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  padding: 5px 0;
+  font-size: 12px;
+}
+.form-side .social ul li a i.fa-linkedin {
+  background-color: #1470c3;
+}
+.form-side .social ul li a i.fa-facebook {
+  background-color: #4267b2;
+}
+.form-side .social ul li a i.fa-twitter {
+  background-color: #1da1f2;
+}
+
+.map {
+  position: relative;
+}
+.map iframe {
+  position: relative;
+}
+.map p {
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+}
+
+.inner-about-hero {
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+
+.about-content {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.about-content .text-content {
+  width: 80%;
+  margin: 0 auto;
+}
+.about-content .text-content h3 {
+  font-family: "Lora";
+  font-size: 35px;
+  padding: 20px 0;
+}
+.about-content .text-content p:first-of-type {
+  margin-bottom: 30px;
+}
+
+.callToAction {
+  text-align: center;
+  background-color: #f8f9fe;
+  padding: 80px 0;
+}
+.callToAction h4 {
+  font-family: "Lora";
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.callToAction p {
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.btn-orange {
+  background-color: #d3862e;
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.single-member {
+  padding-bottom: 20px;
+}
+.single-member .right-desc h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.single-member .right-desc h5.name {
+  color: #194977;
+}
+.single-member .right-desc h6.location {
+  color: #ce9a82;
+  font-size: 18px;
+  padding: 7px 0;
+  margin-bottom: 0;
+}
+.single-member .right-desc p {
+  font-size: 16px;
+  line-height: 25px;
+}
+.single-member .right-desc.full {
+  padding-top: 30px;
+}
+
+.members .search-result {
+  padding: 25px 0 0;
+}
+.members .search-result p {
+  font-weight: bold;
+}
+.members .search-result .sort p {
+  text-align: right;
+  font-weight: normal;
+}
+.members .search-result .sort p span {
+  color: #d3862e;
+  font-weight: bold;
+}
+.members .thumbnail {
+  margin: 15px 0;
+  padding: 0;
+  border-radius: 6px;
+  box-shadow: 2px 1px 13px #ddd;
+  border: none;
+}
+.members .thumbnail .thumb-content h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.members .thumbnail .thumb-content h5.name {
+  color: #194977;
+}
+.members .thumbnail .thumb-content h6.location {
+  color: #ce9a82;
+  font-size: 18px;
+  padding: 7px 0;
+  margin-bottom: 0;
+}
+.members .thumbnail .thumb-content p {
+  margin-top: 15px;
+  line-height: 22px;
+}
+.members .thumbnail .thumb-content.full {
+  padding-top: 30px;
+}
+.members .social ul {
+  list-style: none;
+  text-align: right;
+  padding: 0;
+}
+.members .social ul li {
+  display: inline-block;
+  margin-right: 10px;
+  text-align: center;
+}
+.members .social ul li a {
+  background-color: #fff;
+}
+.members .social ul li a i {
+  color: #fff;
+  width: 20px;
+  height: 20px;
+  padding: 5px 0;
+  font-size: 12px;
+}
+.members .social ul li a i.fa-linkedin {
+  background-color: #1470c3;
+}
+.members .social ul li a i.fa-facebook {
+  background-color: #4267b2;
+}
+.members .social ul li a i.fa-twitter {
+  background-color: #1da1f2;
+}
+.members .ideal-pagination {
+  text-align: center;
+}
+.members .ideal-pagination ul li a {
+  border: none;
+  position: relative;
+  color: #000;
+  font-size: 18px;
+  margin: 0 6px;
+}
+.members .ideal-pagination ul li a::before {
+  content: "";
+  position: absolute;
+  width: 70%;
+  height: 1px;
+  background-color: #000;
+  bottom: 0;
+  left: 50%;
+  margin-left: -35%;
+}
+.members .ideal-pagination ul li a:hover {
+  background-color: transparent;
+  font-weight: bold;
+  color: #d3862e;
+}
+.members .ideal-pagination ul li a:hover::before {
+  background-color: #d3862e;
+}
+.members .ideal-pagination ul li a.prev span, .members .ideal-pagination ul li a.next span {
+  font-size: 30px;
+}
+.members .ideal-pagination ul li a.prev::before, .members .ideal-pagination ul li a.next::before {
+  display: none;
+}
+.members .ideal-pagination .b2t {
+  width: auto;
+  position: relative;
+}
+.members .ideal-pagination .b2t a {
+  position: absolute;
+  font-weight: bold;
+  color: #000;
+  text-decoration: none;
+  top: -60px;
+  right: 15px;
+}
+
+/*# sourceMappingURL=ideal.css.map */
