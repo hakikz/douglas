@@ -12,4 +12,22 @@
         text-transform: uppercase;
         margin-bottom: 20px;
     }
+
+    &.about{
+        background-color: transparent;
+        h4{
+            font-family: $lora;
+            font-size: 35px;
+            text-transform: none;
+        }
+        h5{
+            font-size: 18px;
+        }
+        p{
+            max-width: 1000px;
+            text-transform: none;
+            margin: 0 auto;
+            padding: 20px 0 30px;
+        }
+    }
 }

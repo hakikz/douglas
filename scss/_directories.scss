@@ -1,0 +1,64 @@
+.directories{
+    padding: 50px 0;
+    background-color: $callToAction;
+
+    .title{
+        text-align: center;
+        padding-bottom: 20px;
+        h3{
+            font-family: $lora;
+            font-size: 35px;
+        }
+    }
+
+    .thumbnail{
+        padding: 0;
+        border-radius: 6px;
+        border: none;
+        box-shadow: 0 0 10px #ddd;
+        .img-wrap{
+            position: relative;
+            .title{
+                position: absolute;
+                bottom: 0;
+                left: 20px;
+                color: $white;
+                display: block;
+                width: 100%;
+                text-align: left;
+
+                h5{
+                    font-weight: bold;
+                    font-size: 20px;
+
+                    i{
+                        color: $check;
+                    }
+                }
+            }
+
+            img{
+                border-top-right-radius: 6px;
+                border-top-left-radius: 6px;
+            }
+            .number{
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                background-color: rgba(0, 0, 0, 0.3);
+                color: $white;
+                width: auto;
+                text-align: center;
+                border-radius: 5px;
+                padding: 0 10px;
+            }
+        }
+
+
+        .text {
+            padding: 15px 20px 30px;
+            text-align: center;
+        }
+    }
+
+}

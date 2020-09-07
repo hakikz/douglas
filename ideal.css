@@ -195,6 +195,23 @@
   text-transform: uppercase;
   margin-bottom: 20px;
 }
+.callToAction.about {
+  background-color: transparent;
+}
+.callToAction.about h4 {
+  font-family: "Lora";
+  font-size: 35px;
+  text-transform: none;
+}
+.callToAction.about h5 {
+  font-size: 18px;
+}
+.callToAction.about p {
+  max-width: 1000px;
+  text-transform: none;
+  margin: 0 auto;
+  padding: 20px 0 30px;
+}
 
 .btn-orange {
   background-color: #d3862e;
@@ -344,6 +361,193 @@
   text-decoration: none;
   top: -60px;
   right: 15px;
+}
+
+.categories {
+  padding: 50px 0;
+}
+.categories .container .cat-block:last-child {
+  margin-bottom: none;
+}
+.categories .title {
+  text-align: center;
+}
+.categories .title h3 {
+  font-family: "Lora";
+  font-size: 35px;
+}
+.categories .cat-block {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.categories .cat-block a {
+  text-decoration: none;
+}
+.categories .cat {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 262px;
+  border-radius: 10px;
+}
+.categories .cat.sky-blue {
+  background-color: #7d95c1;
+}
+.categories .cat.ash {
+  background-color: #686e6c;
+}
+.categories .cat.orange {
+  background-color: #d3862e;
+}
+.categories .cat.brown {
+  background-color: #7c311e;
+}
+.categories .cat.brown2 {
+  background-color: #872b2c;
+}
+.categories .cat.orange3 {
+  background-color: #d49c77;
+}
+.categories .cat.litegreen {
+  background-color: #a9b611;
+}
+.categories .cat.red {
+  background-color: #af3d45;
+}
+.categories .cat.tileblue {
+  background-color: #134b7e;
+}
+.categories .cat.pink {
+  background-color: #d97d8c;
+}
+.categories .cat.liteskyblue {
+  background-color: #bccbe0;
+}
+.categories .cat.midgreen {
+  background-color: #d0ce57;
+}
+.categories .cat i {
+  font-size: 45px;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.categories .cat p {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #fff;
+  font-size: 15px;
+}
+.categories .cat .number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  width: auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+
+.directories {
+  padding: 50px 0;
+  background-color: #f8f9fe;
+}
+.directories .title {
+  text-align: center;
+  padding-bottom: 20px;
+}
+.directories .title h3 {
+  font-family: "Lora";
+  font-size: 35px;
+}
+.directories .thumbnail {
+  padding: 0;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 0 10px #ddd;
+}
+.directories .thumbnail .img-wrap {
+  position: relative;
+}
+.directories .thumbnail .img-wrap .title {
+  position: absolute;
+  bottom: 0;
+  left: 20px;
+  color: #fff;
+  display: block;
+  width: 100%;
+  text-align: left;
+}
+.directories .thumbnail .img-wrap .title h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+.directories .thumbnail .img-wrap .title h5 i {
+  color: #2e8aff;
+}
+.directories .thumbnail .img-wrap img {
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.directories .thumbnail .img-wrap .number {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: #fff;
+  width: auto;
+  text-align: center;
+  border-radius: 5px;
+  padding: 0 10px;
+}
+.directories .thumbnail .text {
+  padding: 15px 20px 30px;
+  text-align: center;
+}
+
+.practice {
+  background-color: #f8f9fe;
+  padding: 50px 0;
+}
+.practice .title {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.practice .title h3 {
+  font-family: "Lora";
+  font-size: 35px;
+}
+.practice .thumbnail {
+  padding: 0;
+  border-radius: 6px;
+  border: none;
+  box-shadow: 0 0 10px #ddd;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.practice .thumbnail .img-wrap img {
+  width: 100%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.practice .thumbnail .text {
+  padding: 20px;
+  height: 190px;
+}
+.practice .thumbnail .text h5 {
+  font-weight: bold;
+  color: #d3862e;
+  font-size: 16px;
 }
 
 /*# sourceMappingURL=ideal.css.map */

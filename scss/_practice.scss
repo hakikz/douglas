@@ -1,0 +1,38 @@
+.practice{
+    background-color: $callToAction;
+    padding: 50px 0;
+    .title{
+        text-align: center;
+        margin-bottom: 60px;
+        h3{
+            font-family: $lora;
+            font-size: 35px;
+        }
+    }
+
+    .thumbnail{
+        padding: 0;
+        border-radius: 6px;
+        border: none;
+        box-shadow: 0 0 10px #ddd;
+        text-align: center;
+        margin-bottom: 30px;
+
+        .img-wrap{
+            img{
+                width: 100%;
+                border-top-right-radius: 6px;
+                border-top-left-radius: 6px;
+            }
+        }
+        .text{
+            padding: 20px;
+            height: 190px;
+            h5{
+                font-weight: bold;
+                color: $orange;
+                font-size: 16px;
+            }
+        }
+    }
+}

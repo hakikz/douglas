@@ -1,0 +1,105 @@
+.categories{
+    padding: 50px 0;
+    .container{
+        .cat-block{
+            &:last-child{
+                margin-bottom: none;
+            }
+        }
+    }
+
+    .title{
+        text-align: center;
+        h3{
+            font-family: $lora;
+            font-size: 35px;
+        }
+    }
+
+    .cat-block{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .cat{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        height: 262px;
+        border-radius: 10px;
+        &.sky-blue{
+            background-color: $skyblue;
+        }
+
+        &.ash{
+            background-color: $ash;
+        }
+        &.orange{
+            background-color: $orange;
+        }
+        &.brown{
+            background-color: $brown;
+        }
+        &.brown2{
+            background-color: $brown2;
+        }
+        &.orange3{
+            background-color: $orange3;
+        }
+        &.litegreen{
+            background-color: $litegreen;
+        }
+        &.red{
+            background-color: $red;
+        }
+        &.tileblue{
+            background-color: $tileblue;
+        }
+        &.pink{
+            background-color: $pink;
+        }
+        &.liteskyblue{
+            background-color: $liteskyblue;
+        }
+        &.midgreen{
+            background-color: $midgreen;
+        }
+
+        i{
+            font-size: 45px;
+            height: 70px;
+            width: 70px;
+            border-radius: 50%;
+            border: 1px solid $white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $white;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+
+        p{
+            margin-top: 20px;
+            font-weight: bold;
+            color: $white;
+            font-size: 15px;
+        }
+
+        .number{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: rgba(0, 0, 0, 0.3);
+            color: $white;
+            width: auto;
+            text-align: center;
+            border-radius: 5px;
+            padding: 0 10px;
+        }
+    }
+}
